@@ -126,3 +126,17 @@ Trace datée du moindre changement dans le projet
 
 --------------------
 
+# En pratique
+
+
+## Création d'un dépôt
+
+Ça se fait côté serveur
+
+![](assets/new-repo.png)
+
+
+## GitHub
+
+![](assets/new-repo-github.png) <!-- .element: width="60%" -->
+
