@@ -71,7 +71,8 @@ Sur l'infrastructure d'un hébergeur
 Sur ma propre infrastructure
 
 * GitLab (https://gitlab.com/)
-* Gogs (https://gogs.io/)
+* Gitea (https://gitea.io/)
+* SSH
 * ...
 
 
