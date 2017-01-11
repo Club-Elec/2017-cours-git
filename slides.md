@@ -136,7 +136,7 @@ Trace datée du moindre changement dans le projet
 ![](assets/new-repo.png)
 
 
-## GitHub
+## (GitHub)
 
 ![](assets/new-repo-github.png) <!-- .element: width="60%" -->
 
