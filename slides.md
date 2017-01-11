@@ -16,9 +16,9 @@ M1 Télécoms et Réseaux
 ## Git: WTF?
 
 * Travail collaboratif
-* Gestion de version <!-- .element: class="fragment" -->
-	- Trace de tous les changements <!-- .element: class="fragment" -->
-	- "Voyage dans le temps" <!-- .element: class="fragment" -->
+* Gestion de version
+	- Trace de tous les changements
+	- "Voyage dans le temps"
 
 --------------------
 
