@@ -147,3 +147,42 @@ Trace datée du moindre changement dans le projet
 git clone https://web.isen-bretagne.fr/gitlab/baboli18/test.git
 ``` 
 <!-- .element: style="font-size:62%;text-align:center" -->
+
+
+## Envoi de modifications
+
+Création du commit
+
+```bash
+git add [...]
+git rm [...]
+git commit -m "Mon super commit"
+```
+<!-- .element: style="font-size:100%;" -->
+
+Envoi du commit
+
+```bash
+git push
+```
+<!-- .element: style="font-size:100%;" -->
+
+
+## Fragmenter ses modifications
+
+Création de plusieurs commits
+
+```bash
+git add app.js
+git commit -m "Fonctionnalité X"
+git rm obsolete.js
+git commit -m "Suppression de obsolete"
+```
+<!-- .element: style="font-size:100%;" -->
+
+
+Envoi
+```bash
+git push
+```
+<!-- .element: style="font-size:100%;" -->
