@@ -1,0 +1,114 @@
+# Introduction à Git
+![](assets/git_logo.png)<!-- .element: class="plain" style="height: 40%; width: auto; opacity: 0.8;" -->
+
+
+## Who am I?
+
+![](assets/pp-moz-round.png)<!-- .element: class="plain" width="300px" -->
+
+**Brendan Abolivier**
+
+M1 Télécoms et Réseaux
+
+[@BrenAbolivier](https://twitter.com/BrenAbolivier)
+
+
+## Git: WTF?
+
+* Travail collaboratif
+* Gestion de version <!-- .element: class="fragment" -->
+	- Trace de tous les changements <!-- .element: class="fragment" -->
+	- "Voyage dans le temps" <!-- .element: class="fragment" -->
+
+--------------------
+
+# Quelques notions
+
+--------------------
+
+# Serveur / local
+<!-- .slide: data-background="assets/connection.gif" -->
+
+Deux utilisations distinctes
+
+
+## Local
+
+*Tenir compte de toutes ses modifications*
+
+Utile pour :
+
+* Travailler hors ligne
+* Garder une trace d'un état stable
+* Revenir en arrière sur un mauvais travail
+* ...
+
+
+## Local : Je travaille où ?
+
+Sur mon ordinateur !
+
+
+## Serveur
+
+*Travailler en équipe*
+
+Utile pour :
+
+* Développer un projet à plusieurs
+* Garder une sauvegarde de son travail en ligne
+* Publier son projet (libre)
+* ...
+
+
+## Serveur : Je travaille où ?
+
+Sur l'infrastructure d'un hébergeur
+
+* GitHub (https://github.com/)
+* GitLab (https://gitlab.com/)
+
+Sur ma propre infrastructure
+
+* GitLab (https://gitlab.com/)
+* Gogs (https://gogs.io/)
+* ...
+
+
+## Serveur : Le push-pull
+
+* Push : J'envoie mes modifications
+* Pull : Je récupère des modifications
+
+--------------------
+
+# Dépôts
+
+<!-- .slide: data-background="assets/cnh-home.gif" -->
+
+
+## L'emplacement de votre projet
+
+* Se situe sur le serveur
+* Contient toutes les ressources du projet
+* "Lieu" de consultation et de modification
+
+--------------------
+
+# Commits
+
+<!-- .slide: data-background="assets/bttf.gif" -->
+
+
+## Repères
+
+Trace datée du moindre changement dans le projet
+
+![](assets/commit.png)
+
+--------------------
+
+# En pratique ?
+
+--------------------
+
