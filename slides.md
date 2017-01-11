@@ -148,6 +148,8 @@ git clone https://web.isen-bretagne.fr/gitlab/baboli18/test.git
 ``` 
 <!-- .element: style="font-size:62%;text-align:center" -->
 
+Ici, l'adresse de mon dépôt est https://web.isen-bretagne.fr/gitlab/baboli18/test.git
+
 
 ## Envoi de modifications
 
@@ -194,3 +196,84 @@ git push
 git pull
 ```
 <!-- .element: style="font-size:100%;" -->
+
+--------------------
+
+# Les branches
+
+Ton projet est un arbre
+
+![](assets/tree.gif) <!-- .element: width="30%" -->
+
+
+## Kékecé ?
+
+* Branche initiale : *master*
+* On "tire une branche" pour :
+	- Développer des fonctionnalités
+	- Effectuer des relectures de code
+	- Assurer la stabilité du projet
+* Généralement une copie à un moment t de *master* + changements
+
+## Conventions
+
+La plupart du temps, on gère son projet en suivant ces conventions :
+
+* *master* : Branche principale du projet
+* *dev* : Contient les développements en cours
+* *feature/[...]* : Développement d'une fonctionnalité
+* *fix/[...]* : Développement d'une correction de bug
+
+Note : Seule *master* est créée automatiquement
+
+
+## Passer d'une branche à l'autre
+
+On demande la **fusion** d'une branche dans une autre
+
+* GitLab : *Merge requests*
+* GitHub : *Pull requests*
+
+(mais en vrai, c'est la même chose)
+
+
+## Les merge requests
+
+![](assets/merge-request.png) <!-- .element: width="70%" -->
+
+
+## Exemple
+
+__Alice et Bob travaillent sur un projet.__
+
+__Alice veut ajouter un formulaire au projet.__
+
+0. Elle crée la branche *feature/formulaire*
+0. Elle y développe le formulaire
+0. Elle ouvre une merge request de *feature/formulaire* vers *dev*
+0. Bob relit le code d'Alice et fusionne sa branche
+
+__Le formulaire d'Alice est maintenant dans *dev*__
+
+
+## Le cas de *master*
+
+* Branche principale du projet
+* État **stable** du projet
+	* N'importe qui doit pouvoir l'utiliser
+
+__On fusionne dans *master* quand :__
+
+* On sort une nouvelle version du projet
+* On sort un correctif d'un bug critique
+
+
+## Exemple, seconde partie
+
+__Alice et Bob ont rajouté plusieurs fonctionnalités à leur projet.__
+
+0. L'un.e des deux ouvre une merge request de *dev* vers *master*
+0. Les deux relisent les changements depuis la dernière mise à jour de *master*
+0. L'autre fusionne *dev* dans *master*
+
+--------------------
