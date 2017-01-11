@@ -140,3 +140,10 @@ Trace datée du moindre changement dans le projet
 
 ![](assets/new-repo-github.png) <!-- .element: width="60%" -->
 
+
+## Récupération du dépôt en local
+
+```
+git clone https://web.isen-bretagne.fr/gitlab/baboli18/test.git
+``` 
+<!-- .element: style="font-size:62%;text-align:center" -->
