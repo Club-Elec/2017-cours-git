@@ -107,6 +107,11 @@ Trace datée du moindre changement dans le projet
 
 ![](assets/commit.png)
 
+
+## Les commits, ça s'empile !
+
+![](assets/stack.gif)
+
 --------------------
 
 # En pratique ?
