@@ -143,7 +143,7 @@ Trace datée du moindre changement dans le projet
 
 ## Récupération du dépôt en local
 
-```
+```bash
 git clone https://web.isen-bretagne.fr/gitlab/baboli18/test.git
 ``` 
 <!-- .element: style="font-size:62%;text-align:center" -->
@@ -184,5 +184,13 @@ git commit -m "Suppression de obsolete"
 Envoi
 ```bash
 git push
+```
+<!-- .element: style="font-size:100%;" -->
+
+
+## Récupérer des modifications
+
+```bash
+git pull
 ```
 <!-- .element: style="font-size:100%;" -->
