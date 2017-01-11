@@ -277,3 +277,24 @@ __Alice et Bob ont rajouté plusieurs fonctionnalités à leur projet.__
 0. L'autre fusionne *dev* dans *master*
 
 --------------------
+
+# En pratique
+
+--------------------
+
+## Changement de branche
+
+```bash
+git checkout [nom de la branche]
+```
+<!-- .element: style="font-size:100%;" -->
+
+ou
+
+```bash
+git checkout -b [nom de la branche]
+```
+<!-- .element: style="font-size:100%;" -->
+
+si la branche n'existe pas déjà
+
