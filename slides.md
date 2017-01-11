@@ -34,7 +34,7 @@ Deux utilisations distinctes
 
 ## Local
 
-*Tenir compte de toutes ses modifications*
+*Garder une trace de toutes ses modifications*
 
 Utile pour :
 
@@ -57,7 +57,7 @@ Utile pour :
 
 * Développer un projet à plusieurs
 * Garder une sauvegarde de son travail en ligne
-* Publier son projet (libre)
+* Publier les sources de son projet
 * ...
 
 
