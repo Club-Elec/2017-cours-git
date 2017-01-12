@@ -151,6 +151,33 @@ git clone https://web.isen-bretagne.fr/gitlab/baboli18/test.git
 Ici, l'adresse de mon dépôt est https://web.isen-bretagne.fr/gitlab/baboli18/test.git
 
 
+## État des modifications
+
+Voir les fichiers modifiés/ajoutés/supprimés
+
+```bash
+$ git status
+Sur la branche master
+Votre branche est en avance sur 'origin/master' de 20 commits.
+  (utilisez "git push" pour publier vos commits locaux)
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+
+    modifié :         slides.md
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+
+```
+
+Voir les modifications dans les fichiers modifiés
+
+```bash
+git diff
+```
+<!-- .element: style="font-size:100%;" -->
+
+
 ## Envoi de modifications
 
 Création du commit
