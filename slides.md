@@ -197,6 +197,22 @@ git pull
 ```
 <!-- .element: style="font-size:100%;" -->
 
+
+## Lister les modifications
+
+```bash
+git log
+```
+<!-- .element: style="font-size:100%;" -->
+
+
+## Revenir à un commit précis
+
+```bash
+git checkout [hash du commit]
+```
+<!-- .element: style="font-size:100%;" -->
+
 --------------------
 
 # Les branches
