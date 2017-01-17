@@ -166,7 +166,7 @@ Ici, l'adresse de mon dépôt est https://web.isen-bretagne.fr/gitlab/baboli18/t
 
 Voir les fichiers modifiés/ajoutés/supprimés
 
-```bash
+```plain
 $ git status
 Sur la branche master
 Votre branche est en avance sur 'origin/master' de 20 commits.
