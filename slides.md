@@ -345,3 +345,19 @@ git checkout -b [nom de la branche]
 
 si la branche n'existe pas déjà
 
+
+## Push sur la branche
+
+```bash
+git push --set-upstream origin [nom de la branche]
+```
+<!-- .element: style="font-size:80%;" -->
+
+la première fois, puis
+
+```bash
+git push
+```
+<!-- .element: style="font-size:80%;" -->
+
+les fois suivantes
