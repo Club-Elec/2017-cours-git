@@ -40,7 +40,7 @@ M1 Télécoms et Réseaux
 
 --------------------
 
-# Serveur / local
+# Local / serveur
 <!-- .slide: data-background="assets/connection.gif" -->
 
 Deux utilisations distinctes
