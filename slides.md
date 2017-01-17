@@ -141,6 +141,16 @@ Trace datée du moindre changement dans le projet
 ![](assets/new-repo-github.png) <!-- .element: width="60%" -->
 
 
+## Premiers pas avec la ligne de commande Git
+
+Configuration initiale
+
+```bash
+git config --global user.name "Brendan Abolivier"
+git config --global user.email "contact@brendanabolivier.com"
+```
+
+
 ## Récupération du dépôt en local
 
 ```bash
