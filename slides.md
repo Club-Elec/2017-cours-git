@@ -428,3 +428,11 @@ Lancement des tests unitaires à chaque push et *merge request*
 **Exemple : Caddy (et son module `git`)**
 
 Mettre des modifications en production avec un push
+
+--------------------
+
+## Merci de votre attention !
+
+**Questions ?**
+
+<brendan.abolivier@isen-ouest.yncrea.fr>
