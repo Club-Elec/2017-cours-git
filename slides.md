@@ -240,6 +240,9 @@ git checkout [hash du commit]
 ```
 <!-- .element: style="font-size:100%;" -->
 
+
+# Démo !
+
 --------------------
 
 # Les branches
@@ -257,6 +260,7 @@ Ton projet est un arbre
 	- Effectuer des relectures de code
 	- Assurer la stabilité du projet
 * Généralement une copie à un moment t de *master* + changements
+
 
 ## Conventions
 
