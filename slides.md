@@ -178,8 +178,8 @@ Modifications qui ne seront pas validées :
     modifié :         slides.md
 
 aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
-
 ```
+<!-- .element: class="hljs" -->
 
 Voir les modifications dans les fichiers modifiés
 
