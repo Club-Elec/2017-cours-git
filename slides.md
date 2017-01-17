@@ -20,6 +20,13 @@ M1 Télécoms et Réseaux
 	- Trace de tous les changements
 	- "Voyage dans le temps"
 
+
+## Installer
+
+* Ubuntu : `sudo apt-get install git`
+* Archlinux : `sudo pacman -S git`
+* Windows : https://git-scm.com/download/win
+
 --------------------
 
 # Quelques notions
