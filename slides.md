@@ -375,3 +375,37 @@ les fois suivantes
 
 
 # Démo !
+
+--------------------
+
+# Aller plus loin
+
+
+## Annuler des changements (hors commit)
+
+```bash
+git checkout [fichier]
+```
+<!-- .element: style="font-size:100%;" -->
+
+
+## Annuler un commit
+
+```bash
+git revert [commit]
+```
+<!-- .element: style="font-size:100%;" -->
+
+On peut récupérer le hash du commit avec `git log`
+
+
+## Annuler un commit relativement
+
+**Exemple : Annuler les deux derniers commits**
+
+```bash
+git revert HEAD~2
+```
+<!-- .element: style="font-size:100%;" -->
+
+(fonctionne aussi avec `git checkout`)
