@@ -27,6 +27,13 @@ M1 Télécoms et Réseaux
 * Archlinux : `sudo pacman -S git`
 * Windows : https://git-scm.com/download/win
 
+
+## Organisation du cours
+
+* Notions théoriques
+* Mises en pratique
+* Démos
+
 --------------------
 
 # Quelques notions
