@@ -409,3 +409,22 @@ git revert HEAD~2
 <!-- .element: style="font-size:100%;" -->
 
 (fonctionne aussi avec `git checkout`)
+
+--------------------
+
+# Encore plus loin
+
+
+## Intégration continue
+
+* Travis (https://travis-ci.org/)
+* Gitlab CI (https://about.gitlab.com/gitlab-ci/)
+
+Lancement des tests unitaires à chaque push et *merge request*
+
+
+## Mise en production automatisée
+
+**Exemple : Caddy (et son module `git`)**
+
+Mettre des modifications en production avec un push
