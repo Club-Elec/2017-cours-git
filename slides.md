@@ -284,7 +284,7 @@ Ton projet est un arbre
 	- Développer des fonctionnalités
 	- Effectuer des relectures de code
 	- Assurer la stabilité du projet
-* Généralement une copie à un moment t de *master* + changements
+* Généralement une copie à un moment ***t*** de *master* + changements
 
 
 ## Conventions
