@@ -338,7 +338,7 @@ On demande la **fusion** d'une branche dans une autre
 * GitLab : *Merge requests*
 * GitHub : *Pull requests*
 
-(mais en vrai, c'est la même chose)
+(mais en vrai, c'est la même chose) <!-- .element: class="fragment" -->
 
 
 ## Les merge requests
