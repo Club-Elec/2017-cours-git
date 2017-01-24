@@ -312,11 +312,11 @@ Ton dépôt est un arbre
 ## Kékecé ?
 
 * Branche initiale : *master*
+* Généralement une copie à un moment ***t*** de *master* + changements
 * On "tire une branche" pour :
 	- Développer des fonctionnalités
 	- Effectuer des relectures de code
 	- Assurer la stabilité du projet
-* Généralement une copie à un moment ***t*** de *master* + changements
 
 
 ## Conventions
