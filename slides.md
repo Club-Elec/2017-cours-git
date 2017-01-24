@@ -287,7 +287,7 @@ Copie du dépôt à l'instant *t*
 ![](assets/fork.png)
 
 
-Se comporte comme un dépôt
+**Le fork se comporte comme un dépôt**
 
 ![](assets/forked.png)
 
