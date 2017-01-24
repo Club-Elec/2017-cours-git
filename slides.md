@@ -242,7 +242,6 @@ git commit -m "Suppression de obsolete"
 ```
 <!-- .element: style="font-size:100%;" -->
 
-
 Envoi
 ```bash
 git push
