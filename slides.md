@@ -278,6 +278,22 @@ git checkout [hash du commit]
 
 --------------------
 
+# Les forks
+
+![](assets/fork.gif)
+
+Copie du projet à l'instant *t*
+
+
+![](assets/fork.png)
+
+
+Se comporte comme un dépôt
+
+![](assets/forked.png)
+
+--------------------
+
 # Les branches
 
 Ton projet est un arbre
@@ -324,14 +340,15 @@ On demande la **fusion** d'une branche dans une autre
 
 ## Exemple
 
-__Alice et Bob travaillent sur un projet.__
+__Alice et Bob travaillent sur un projet, sur un dépôt de Bob.__
 
 __Alice veut ajouter un formulaire au projet.__
 
-0. Elle crée la branche *feature/formulaire*
+0. Elle *fork* le projet
+0. Elle crée la branche *feature/formulaire* sur son fork
 0. Elle y développe le formulaire
-0. Elle ouvre une merge request de *feature/formulaire* vers *dev*
-0. Bob relit le code d'Alice et fusionne sa branche
+0. Elle ouvre une merge request de *feature/formulaire* sur son fork vers *dev* sur le dépôt de Bob
+0. Bob relit le code d'Alice et fusionne sa branche sur son dépôt
 
 __Le formulaire d'Alice est maintenant dans *dev*__
 
