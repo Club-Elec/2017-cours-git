@@ -384,6 +384,17 @@ __Alice et Bob ont rajouté plusieurs fonctionnalités à leur projet.__
 
 --------------------
 
+## En résumé
+
+Encore une fois, des conventions !
+
+* Je travaille sur le dépôt d'un autre à l'aide d'un **fork**
+* Je travaille sur une **branche** qui décrit ma modification
+* Je demande l'ajout de mes changements via une **merge request**
+* `master` fait référence à une version **stable** de mon projet
+
+--------------------
+
 # En pratique
 
 --------------------
