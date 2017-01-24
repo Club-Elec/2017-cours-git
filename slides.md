@@ -104,9 +104,17 @@ Sur ma propre infrastructure
 
 ## L'emplacement de votre projet
 
-* Se situe sur le serveur
-* Contient toutes les ressources du projet
-* "Lieu" de consultation et de modification
+Sur le serveur, et en local
+
+
+## En local
+
+*Versionner* son projet
+
+
+## Sur le serveur
+
+Copie du projet au moment du *push*
 
 --------------------
 
