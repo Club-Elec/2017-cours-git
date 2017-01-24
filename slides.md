@@ -398,21 +398,29 @@ Encore une fois, des conventions !
 
 --------------------
 
+## Création de la branche
+
+Côté serveur
+
+![](assets/branch-server.png)<!-- .element: width="70%" -->
+
+
 ## Changement de branche
+
+Récupération de la nouvelle branche
+
+```bash
+git fetch
+```
+<!-- .element: style="font-size:100%;" -->
+
+Passage sur la nouvelle branche
 
 ```bash
 git checkout [nom de la branche]
 ```
 <!-- .element: style="font-size:100%;" -->
 
-ou
-
-```bash
-git checkout -b [nom de la branche]
-```
-<!-- .element: style="font-size:100%;" -->
-
-si la branche n'existe pas déjà
 
 
 ## Push sur la branche
