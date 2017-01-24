@@ -282,7 +282,7 @@ git checkout [hash du commit]
 
 ![](assets/fork.gif)
 
-Copie du projet à l'instant *t*
+Copie du dépôt à l'instant *t*
 
 
 ![](assets/fork.png)
@@ -292,11 +292,20 @@ Se comporte comme un dépôt
 
 ![](assets/forked.png)
 
+
+## Conventions
+
+La plupart du temps, on gère son projet en suivant ces conventions :
+
+* Pour contribuer à un projet, on *fork* son dépôt
+* On intègre nos modifications sur une nouvelle branche
+* On ouvre une *merge request* sur le dépôt d'origine
+
 --------------------
 
 # Les branches
 
-Ton projet est un arbre
+Ton dépôt est un arbre
 
 ![](assets/tree.gif) <!-- .element: width="30%" -->
 
@@ -315,7 +324,7 @@ Ton projet est un arbre
 
 La plupart du temps, on gère son projet en suivant ces conventions :
 
-* *master* : Branche principale du projet
+* *master* : Branche principale du dépôt
 * *dev* : Contient les développements en cours
 * *feature/[...]* : Développement d'une fonctionnalité
 * *fix/[...]* : Développement d'une correction de bug
@@ -344,7 +353,7 @@ __Alice et Bob travaillent sur un projet, sur un dépôt de Bob.__
 
 __Alice veut ajouter un formulaire au projet.__
 
-0. Elle *fork* le projet
+0. Elle *fork* le dépôt
 0. Elle crée la branche *feature/formulaire* sur son fork
 0. Elle y développe le formulaire
 0. Elle ouvre une merge request de *feature/formulaire* sur son fork vers *dev* sur le dépôt de Bob
@@ -355,7 +364,7 @@ __Le formulaire d'Alice est maintenant dans *dev*__
 
 ## Le cas de *master*
 
-* Branche principale du projet
+* Branche principale du dépôt
 * État **stable** du projet
 	* N'importe qui doit pouvoir l'utiliser
 
