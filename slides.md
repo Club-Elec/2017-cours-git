@@ -141,7 +141,7 @@ Trace datée du moindre changement dans le projet
 * Mon projet est à deux endroits à la fois :
 	- Sur **mon ordinateur**
 	- Sur **un serveur**
-* Il se trouve dans un **dépôt** (sur le serveur)
+* Il se trouve dans un **dépôt**
 * Je décris mes modifications dans un **commit**
 * J'envoie mes modifications sur le serveur avec un **push** (je **pousse** mes modifications)
 * Je récupère les modifications d'un autre depuis le serveur avec un **pull** (je **tire** les modifications)
