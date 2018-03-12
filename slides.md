@@ -128,7 +128,7 @@ Copie du projet au moment du *push*
 
 Trace datée du moindre changement dans le projet
 
-![](assets/commit.png)
+![](assets/commit.png) <!-- .element: class="plain" width="700px" -->
 
 
 ## Les commits, ça s'empile
