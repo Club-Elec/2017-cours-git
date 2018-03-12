@@ -4,11 +4,12 @@
 
 ## Who am I?
 
-![](assets/pp-moz-round.png)<!-- .element: class="plain" width="300px" -->
+![](assets/pp-moz-round.png)<!-- .element: class="plain" width="270px" -->
 
 **Brendan Abolivier**
 
-M1 Télécoms et Réseaux
+M2 Robotique<br/>
+Alternant @ Cozy Cloud
 
 [@BrenAbolivier](https://twitter.com/BrenAbolivier)
 
@@ -178,7 +179,7 @@ git config --global user.email "contact@brendanabolivier.com"
 
 ```bash
 git clone https://web.isen-bretagne.fr/gitlab/baboli18/test.git
-``` 
+```
 <!-- .element: style="font-size:62%;text-align:center" -->
 
 Ici, l'adresse de mon dépôt est https://web.isen-bretagne.fr/gitlab/baboli18/test.git
@@ -273,7 +274,41 @@ git checkout [hash du commit]
 <!-- .element: style="font-size:100%;" -->
 
 
+## Annuler des changements (hors commit)
+
+```bash
+git checkout [fichier]
+```
+<!-- .element: style="font-size:100%;" -->
+
+
+## Annuler un commit
+
+```bash
+git revert [commit]
+```
+<!-- .element: style="font-size:100%;" -->
+
+On peut récupérer le hash du commit avec `git log`
+
+
+## Annuler un commit relativement
+
+**Exemple : Annuler les deux derniers commits**
+
+```bash
+git revert HEAD~2
+```
+<!-- .element: style="font-size:100%;" -->
+
+(fonctionne aussi avec `git checkout`)
+
+
 # Démo !
+
+--------------------
+
+# Aller plus loin
 
 --------------------
 
@@ -396,7 +431,6 @@ Encore une fois, des conventions !
 
 # En pratique
 
---------------------
 
 ## Création de la branche
 
@@ -444,40 +478,6 @@ les fois suivantes
 
 --------------------
 
-# Aller plus loin
-
-
-## Annuler des changements (hors commit)
-
-```bash
-git checkout [fichier]
-```
-<!-- .element: style="font-size:100%;" -->
-
-
-## Annuler un commit
-
-```bash
-git revert [commit]
-```
-<!-- .element: style="font-size:100%;" -->
-
-On peut récupérer le hash du commit avec `git log`
-
-
-## Annuler un commit relativement
-
-**Exemple : Annuler les deux derniers commits**
-
-```bash
-git revert HEAD~2
-```
-<!-- .element: style="font-size:100%;" -->
-
-(fonctionne aussi avec `git checkout`)
-
---------------------
-
 # Encore plus loin
 
 
@@ -501,4 +501,4 @@ Mettre des modifications en production avec un push
 
 **Questions ?**
 
-<brendan.abolivier@isen-ouest.yncrea.fr>
+<brendan@abolivier.fr>
